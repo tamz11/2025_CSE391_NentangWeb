@@ -1,0 +1,32 @@
+.logo {
+  text-align: left;
+  color: white;
+  font-weight: 700;
+  margin: 10px 5px 0 20px;
+  padding: 5px 10px;
+}
+.row {
+  display: flex;
+  /* width: 85%; */
+  margin: 0 auto;
+  background-color: aquamarine;
+  position: fixed;
+  width: 85%;
+}
+.cart {
+  flex-grow: 1;
+  text-align: right;
+  padding-right: 10px;
+}
+.cart i {
+  font-size: 22pt;
+}
+.cartamount sup {
+  text-align: right;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 0 5px;
+  position: relative;
+  top: -5px;
+}
